@@ -1,0 +1,22 @@
+# yaml-language-server: $schema=https://squidfunk.github.io/mkdocs-material/schema.json
+
+site_name: Donald Sonn
+site_url: https://dsonn.com
+theme:
+  name: material
+  font:
+    text: Helvetica
+  palette:
+    -scheme: default
+    primary: blue
+    accent: red
+plugins:
+  - blog:
+      blog_dir: .
+      archive: false
+      categories: false
+  - search
+  - tags
+nav:
+  - aboutme.md
+  - index.md
