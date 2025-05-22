@@ -1,3 +1,3 @@
 # About me
 
-My name is Donald Sonn.
+My name is Donald Sonn
